@@ -6,7 +6,7 @@
 /*   By: jbustos- <jbustos-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/08 18:52:59 by jbustos-          #+#    #+#             */
-/*   Updated: 2025/09/09 11:19:28 by jbustos-         ###   ########.fr       */
+/*   Updated: 2025/09/12 16:41:35 by jbustos-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ char	*ft_strrchr(const char *s, int c)
 {
 	int	count;
 
-	count = strlen(s);
+	count = ft_strlen(s);
 	while (count >= 0)
 	{
 		if (s[count] == (unsigned char) c)
