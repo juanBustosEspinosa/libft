@@ -6,7 +6,7 @@
 /*   By: jbustos- <jbustos-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/07 16:42:28 by jbustos-          #+#    #+#             */
-/*   Updated: 2025/09/15 17:50:47 by jbustos-         ###   ########.fr       */
+/*   Updated: 2025/09/17 16:22:36 by jbustos-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,5 +35,10 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t size);
 char	*ft_strnstr(const char *haystack, const char *needle, size_t len);
 size_t	ft_strlcat(char *dst, const char *src, size_t dstsize);
 int		ft_atoi(const char *nptr);
+char	*ft_strdup(const char *s);
+void	*ft_calloc(size_t nmemb, size_t size);
+char	*ft_substr(char const *s, unsigned int start, size_t len);
+char	*ft_strjoin(char const *s1, char const *s2);
+char	*ft_strtrim(char const *s1, char const *set);
 
 #endif
