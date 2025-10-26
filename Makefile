@@ -6,7 +6,7 @@
 #    By: jbustos- <jbustos-@student.42madrid.com    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/09/07 17:32:40 by jbustos-          #+#    #+#              #
-#    Updated: 2025/09/18 11:58:00 by jbustos-         ###   ########.fr        #
+#    Updated: 2025/10/26 11:55:18 by jbustos-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -17,7 +17,7 @@ SOURCE = 	ft_isalnum.c ft_isalpha.c ft_isdigit.c ft_isascii.c ft_isprint.c \
 			ft_memset.c ft_memchr.c ft_bzero.c ft_memcpy.c ft_memmove.c      \
 			ft_strlcpy.c ft_strnstr.c ft_strlcat.c ft_atoi.c ft_strdup.c     \
 			ft_calloc.c ft_substr.c ft_strjoin.c ft_strtrim.c ft_split.c	 \
-			
+			ft_itoa.c ft_strmapi.c ft_striteri.c ft_putchar_fd.c
 
 CFLAGS = -Wall -Wextra -Werror 
 CC = cc
