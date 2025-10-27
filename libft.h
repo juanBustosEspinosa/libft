@@ -6,7 +6,7 @@
 /*   By: jbustos- <jbustos-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/07 16:42:28 by jbustos-          #+#    #+#             */
-/*   Updated: 2025/10/26 11:58:36 by jbustos-         ###   ########.fr       */
+/*   Updated: 2025/10/27 11:06:06 by jbustos-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,5 +46,8 @@ char	*ft_itoa(int n);
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char));
 void	ft_striteri(char *s, void (*f)(unsigned int, char*));
 void	ft_putchar_fd(char c, int fd);
+void    ft_putstr_fd(char *s, int fd);
+void    ft_putendl_fd(char *s, int fd);
+void    ft_putnbr_fd(int n, int fd);
 
 #endif
