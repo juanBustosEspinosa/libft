@@ -6,7 +6,7 @@
 #    By: jbustos- <jbustos-@student.42madrid.com    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/09/07 17:32:40 by jbustos-          #+#    #+#              #
-#    Updated: 2026/09/28 16:59:47 by jbustos-         ###   ########.fr        #
+#    Updated: 2026/09/28 17:17:12 by jbustos-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -20,7 +20,7 @@ SOURCE = 	ft_isalnum.c ft_isalpha.c ft_isdigit.c ft_isascii.c ft_isprint.c \
 			ft_itoa.c ft_strmapi.c ft_striteri.c ft_putchar_fd.c             \
 			ft_putstr_fd.c ft_putendl_fd.c ft_putnbr_fd.c ft_memcmp.c
 
-BONUS =		ft_lstnew.c
+BONUS =		ft_lstnew.c ft_lstadd_front.c
 
 CFLAGS = -Wall -Wextra -Werror 
 CC = cc
