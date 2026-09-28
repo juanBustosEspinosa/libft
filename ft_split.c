@@ -6,7 +6,7 @@
 /*   By: jbustos- <jbustos-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/18 11:57:43 by jbustos-          #+#    #+#             */
-/*   Updated: 2025/10/01 18:25:52 by jbustos-         ###   ########.fr       */
+/*   Updated: 2026/09/28 13:37:18 by jbustos-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,17 +14,15 @@
 #include <string.h>
 #include <unistd.h>
 
-static int count_delimiter(char const *s, char c)
+static int	count_delimiter(char const *s, char c)
 {
-	int t;
-	int count;
-	
+	int		t;
+	int		count;
+
 	t = 0;
 	count = 0;
-
-	if(!s || s[0] == '\0')
+	if (!s || s[0] == '\0')
 		return (0);
-
 	while (s[count] == c)
 		count++;
 	while (s[count] != '\0')
@@ -43,9 +41,9 @@ static int count_delimiter(char const *s, char c)
 	return (t + 1);
 }
 
-static int count_letter(char const *s, char c, int *count)
+static int	count_letter(char const *s, char c, int *count)
 {
-	int t;
+	int		t;
 
 	t = 0;
 	while (s[*count] == c)
@@ -65,12 +63,12 @@ static int count_letter(char const *s, char c, int *count)
 
 char	**ft_split(char const *s, char c)
 {
-	int	count;
+	int		count;
 	char	**ptr;
-	int	delimiter;
-	int i;
-	int letter;
-		
+	int		delimiter;
+	int		i;
+	int		letter;
+
 	i = 0;
 	count = 0;
 	delimiter = count_delimiter(s, c);
@@ -85,7 +83,7 @@ char	**ft_split(char const *s, char c)
 		ptr[i] = (char *)malloc(letter + 1);
 		if (!ptr[i])
 			return (NULL);
-		ft_strlcpy(ptr[i],s + (count-letter),letter + 1);
+		ft_strlcpy(ptr[i], s + (count - letter), letter + 1);
 		i++;
 	}
 	ptr[delimiter] = NULL;
