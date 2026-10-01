@@ -6,13 +6,11 @@
 /*   By: jbustos- <jbustos-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/18 11:57:43 by jbustos-          #+#    #+#             */
-/*   Updated: 2026/09/28 13:37:18 by jbustos-         ###   ########.fr       */
+/*   Updated: 2026/10/01 18:08:14 by jbustos-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <string.h>
-#include <unistd.h>
 
 static int	count_delimiter(char const *s, char c)
 {

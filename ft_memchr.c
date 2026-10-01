@@ -6,12 +6,11 @@
 /*   By: jbustos- <jbustos-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/09 13:55:40 by jbustos-          #+#    #+#             */
-/*   Updated: 2025/09/09 17:14:20 by jbustos-         ###   ########.fr       */
+/*   Updated: 2026/10/01 18:07:05 by jbustos-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <string.h>
 
 void	*ft_memchr(const void *s, int c, size_t n)
 {

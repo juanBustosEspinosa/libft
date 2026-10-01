@@ -6,7 +6,7 @@
 /*   By: jbustos- <jbustos-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/01 16:27:17 by jbustos-          #+#    #+#             */
-/*   Updated: 2026/10/01 17:05:59 by jbustos-         ###   ########.fr       */
+/*   Updated: 2026/10/01 17:32:44 by jbustos-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,8 +16,8 @@ static t_list	*exception(t_list **lst, void (*del)(void*), void *n_content)
 {
 	if (n_content != NULL)
 		del(n_content);
-	ft_lstclear(lst,del);
-	return(NULL);
+	ft_lstclear(lst, del);
+	return (NULL);
 }
 
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))

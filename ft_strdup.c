@@ -6,7 +6,7 @@
 /*   By: jbustos- <jbustos-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/16 13:08:57 by jbustos-          #+#    #+#             */
-/*   Updated: 2025/09/16 13:24:08 by jbustos-         ###   ########.fr       */
+/*   Updated: 2026/10/01 17:51:54 by jbustos-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,18 +14,18 @@
 
 char	*ft_strdup(const char *s)
 {
-	char	*copia;
+	char	*cp;
 	int		count;
 
-	copia = malloc((ft_strlen(s) + 1) * sizeof(char));
-	if (!copia)
+	cp = malloc((ft_strlen(s) + 1) * sizeof(char));
+	if (!cp)
 		return (NULL);
 	count = 0;
 	while (s[count] != '\0')
 	{
-		copia[count] = s[count];
+		cp[count] = s[count];
 		count++;
 	}
-	copia[count] = '\0';
-	return (copia);
+	cp[count] = '\0';
+	return (cp);
 }

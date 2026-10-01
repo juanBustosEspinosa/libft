@@ -6,7 +6,7 @@
 /*   By: jbustos- <jbustos-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/29 18:21:16 by jbustos-          #+#    #+#             */
-/*   Updated: 2026/09/29 18:42:22 by jbustos-         ###   ########.fr       */
+/*   Updated: 2026/10/01 17:32:28 by jbustos-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 t_list	*ft_lstlast(t_list *lst)
 {
 	if (!lst)
-    	return (NULL);
+		return (NULL);
 	while (lst->next != NULL)
 	{
 		lst = lst->next;
