@@ -25,7 +25,7 @@ Funciones no incluidas en la `libc` estándar o con un enfoque simplificado:
 * **Generación/Modificación de cadenas:** `ft_substr`, `ft_strjoin`, `ft_strtrim`, `ft_split`, `ft_itoa`, `ft_strmapi`, `ft_striteri`.
 * **Escritura en File Descriptors:** `ft_putchar_fd`, `ft_putstr_fd`, `ft_putendl_fd`, `ft_putnbr_fd`.
 
-### 3. Funciones Bonus (Listas enlazadas)
+### 3. Funciones Listas enlazadas 
 Funciones para la manipulación y gestión de la estructura de datos `t_list`:
 ```c
 typedef struct s_list
